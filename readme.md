@@ -9,7 +9,7 @@ year        | YEAR                            NOT NULL
 mileage     | VARCHAR(7)                      NOT NULL
 fuel        | VARCHAR(20)                     NOT NULL
 color       | VARCHAR(20)                     NULL
-horsepower  | INT                             NULL
+horsepower  | SMALLINT                        NULL
 plate       | VARCHAR(7) UNIQUE               NOT NULL
 condition   | TEXT                            NULL
 is_available| TINYINT DEFAULT(1)              NOT NULL
